@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    margin: 0px;
+}
+
+.left-section {
+    background-color: aqua;
+    background-image: url(backgroundImg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex: 1;
+}
+
+.right-section {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image {
+    width: 300px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
